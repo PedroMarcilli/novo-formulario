@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    
+    <title>Formulario</title> 
+</head>
+<body>
+    <fieldset>
+    <img href="./src/img/home-office-scaled-1.jpg">
+    <h1 id="title">Formulário de pesquisa Mille</h1>
+    <p id="description">Obrigado por dedicar seu tempo para nos ajudar a melhorar a plataforma</p>
+    <form id="survey-form">
+        <legend>Campos obrigatorios!</legend>
+        <div>
+            <label id="name-label">Nome</label>
+            <input id="name" type="text" placeholder="Nome completo" required>
+        </div>
+        <div>
+            <label id="email-label">Email</label>
+            <input id="email" type="email" placeholder="seu@email.com" required>
+        </div>
+        <div>
+            <label id="number-label">Idade</label>
+            <input id="number" type="number" min="16" max="99" placeholder="idade" required>
+        </div>
+
+            <label for="Dropdown">Qual opção melhor descreve sua função atual?</label>
+        <div>
+            <select id="dropdown" nome="dropdown">
+                <option value="1">selecione uma opção</option>
+                <option value="2">estudante</option>
+                <option value="3">trabalho CLT</option>
+                <option value="4">prefiro nao dizer</option>
+                <option volue="5" >outros</option>
+            </select>
+        </div>
+    </fieldset>
+    <fieldset>
+        <ul>
+            <legend id="legend1">Você recomendaria a Mille a um amigo?</legend>
+            <div>
+                <input value="1" name="seletor" id="select1" type="radio" class="inline">
+                <label for="select1">Definitivamente</label>
+            </div>
+            <div>
+                <input value="2" name="seletor" id="select2" type="radio" class="inline">
+                <label for="select2">Talvez</label>
+            </div>
+            <div>
+                <input value="3" name="seletor" id="select3" type="radio" class="inline">
+                <label for="select3">Não tenho certeza</label>
+            </div>   
+        </ul>
+        <ul>
+            <div>
+                <label for="">selecione oque mais gosta de ver aqui!</label>
+            </div>
+            <div>
+                <input id="bloco1" value="1" type="checkbox">
+                <label for="bloco1">Videos</label>
+            </div>
+            <div>
+                <input id="bloco2" value="2" type="checkbox">
+                <label for="bloco2">Atividades</label>
+            </div>
+            <div>
+                <label for="bio">Oque gostaria de ver melhorndo?</label>
+            </div>
+            <div>
+                <textarea id="bio" name="bio" rows="3" cols="30" placeholder=""></textarea>
+            </div>
+        </ul>
+            <button id="submit">Enviar</button>
+    </fieldset>
+    </form>
+</body>
+</html>

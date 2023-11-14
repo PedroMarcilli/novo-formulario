@@ -1,0 +1,33 @@
+
+body {
+    width: 100%;
+    display: inline;
+    margin: 0;
+    background-color: antiquewhite;
+    font-family: Tahoma;
+    font-size: 16px;
+}
+fieldset{
+    margin-top: 50px;
+    width: 100vh;
+    background-color: burlywood;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: auto;
+}
+.name-label .email-label .number-label .dropdown {
+    display: inline-block;
+    text-align: center
+
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+h1, p, legend{
+    text-align: center;
+}
